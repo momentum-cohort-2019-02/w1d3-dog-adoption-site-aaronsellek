@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+h1 {
+    color: white;
+    background-color: #00377B;
+    padding: 50px;
+    border-bottom: 3px solid #7BDEF4;}
+.Grey {
+    background-color: #F1EDEE;
+  
+}
+.All { 
+
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start; 
+display: flex; 
+
+}
+.First {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Second {
+    
+    
+}
+.Third {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Fourth {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Body{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
